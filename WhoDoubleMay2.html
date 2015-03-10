@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <title>小白ㄝ個人空間-Why double may!!</title>
+   <style>
+      body
+	  {
+	     background-color: #F8F8F8;
+		 margin: 0px;
+		 padding: 0px;
+		 font-size: 12px;
+	  }
+	  div
+	  {
+	     display: block;
+	  }
+	  ul
+	  {
+	     margin: 0;
+		 padding: 0;
+		 display: block;
+		 list-style-type: none;
+		 -webkit-margin-before: 1em;
+		 -webkit-margin-after: 1em;
+		 -webkit-margin-start: 0px;
+		 -webkit-margin-end: 0px;
+		 -webkit-padding-start: 40px;
+	  }
+	  pre
+	  {
+	  }
+	  embed
+	  {
+	     width: 100;
+		 height: 100;
+		 allownetworking: internal;
+		 allowscriptaccess: never;
+		 quality: high;
+		 background-color: #FFFFFF;
+		 wmode: transparent;
+		 allowfullscreen: true;
+	  }
+	  h1.mt
+	  {
+	  	font-size: 12px;
+	  }
+	  #top
+	  {
+	     padding: 0px;
+		 border-bottom-width: 1px;
+		 border-bottom-style: solid;
+		 border-bottom-color: rgb(230,231,225);
+		 background-color: #DDDDDD;
+		 min-width: 960px;
+		 line-height: 28px;
+	  }
+	  .cl
+	  {
+	     zoom: 1;
+	  }
+	  .cl::after
+	  {
+	     content: ".";
+		 display: block;
+		 height: 0px;
+		 clear: both;
+		 visibility: hidden;
+	  }
+	  .z
+	  {
+	     float: left;
+	  }
+	  a
+	  {
+	     color: #069;
+	  }
+	  <!-- A{text-decoration:none} --> 
+	  .y
+	  {
+	     float: right;
+	  }
+	  #hd
+	  {
+	     margin-top: 30px;
+		 width: 950px;
+		 height: 130px;
+		 border-top-color: rgb(211, 223, 223);
+		 border-top-style: solid;
+		 border-top-width: 1px;
+		 border-right-color: rgb(211, 223, 223);
+		 border-right-style: solid;
+		 border-right-width: 1px;
+		 border-bottom-color: rgb(211, 223, 223);
+		 border-bottom-style: solid;
+		 border-bottom-width: 1px;
+		 border-left-color: rgb(211, 223, 223);
+		 border-left-style: solid;
+		 border-left-width: 1px;
+		 background-image: url(http://ck101.com/static/space/t1/images/header.jpg);
+		 background-position-x: 100%;
+		 background-position-y: 0%;
+		 background-size: initial;
+		 background-repeat: no-repeat;
+		 background-attachment: initial;
+		 background-origin: initial;
+		 background-clip: initial;
+		 background-color: rgb(250, 250, 250);
+		 color: #069;
+		 position: relative;
+	  }
+	  #hd h2
+	  {
+	     padding-top: 20px;
+		 padding-right: 0px;
+		 padding-bottom: 0px;
+		 padding-left: 30px;
+		 line-height: 115%;
+		 font-size: 14px;
+		 float: left;
+	  }
+	  #hd h2 strong
+	  {
+	     display: block;
+	  }
+	  #hd h2 span
+	  {
+	     display: block;
+	  }
+	  #nv li
+	  {
+	     font-size: 14px;
+		 margin-right: 1px;
+		 padding-top: 0px;
+		 padding-right: 16px;
+		 padding-bottom: 0px;
+		 padding-left: 16px;
+		 height: 30px;
+		 line-height: 30px;
+		 float: left;
+		 font-weight: 700;
+		 list-style: none;
+	  }
+	  #ct .frame
+	  {
+	     padding-top: 15px;
+	  }
+	  #p1 li
+	  {
+	     clear: both;
+	     padding: 3px 0 3px 90px;
+	  }
+	  #p1 li em
+	  {
+	     float: left;
+		 margin-left: -90px;
+		 width: 85px;
+		 overflow: hidden;
+		 font-style: normal;
+	  }
+	  .mbn
+	  {
+	     margin-bottom: 5px;
+	  }
+	  .wp
+	  {
+	     width: 970px;
+		 margin-top: 0px;
+		 margin-right: auto;
+		 margin-bottom: 0px;
+		 margin-left: auto;
+		 overflow: hidden;
+	  }
+	  .fw
+	  {
+	     font-weight: 400;
+	  }
+	  .fs
+	  {
+	     font-family: Arial;
+	     font-size: 0.83em;
+	  }
+	  .fs1
+	  {
+	     font-size: 12px;
+	  }
+	  .mt
+	  {
+	     margin-top: 5px;
+	  }
+	  #nv
+	  {
+	     bottom: 10px;
+		 position: absolute;
+		 left: 10px;
+		 height: auto;
+		 overflow: hidden;
+	  }
+	  .wp
+	  {
+	     width: 970px;
+		 margin-top: 0px;
+		 margin-right: auto;
+		 margin-bottom: 0px;
+		 margin-left: auto;
+		 overflow: hidden;
+	  }
+	  .area
+	  {
+	     padding-top: 0px;
+		 padding-right: 5px;
+		 padding-bottom: 0px;
+		 padding- left: 5px;
+	  }
+	  .column
+	  {
+	     overflow: column;
+	  }
+	  .block
+	  {
+	     margin-top: 0px;
+		 margin-right: 5px;
+		 margin-bottom: 10px;
+		 margin-left: 5px;
+		 border-top-color: rgb(221, 221, 221);
+		 border-top-style: solid;
+		 border-top-width: 1px;
+		 border-right-color: rgb(221, 221, 221);
+		 border-right-style: solid;
+		 border-right-width: 1px;
+		 border-bottom-color: rgb(221, 221, 221);
+		 border-bottom-style: solid;
+		 border-bottom-width: 1px;
+		 border-left-color: rgb(221, 221, 221);
+		 border-left-style: solid;
+		 border-left-width: 1px;
+		 background-color: #FFF;
+	  }
+	  .title
+	  {
+	     border-bottom-width: 1px;
+		 border-bottom-style: solid;
+		 border-bottom-color: rgb(221, 221, 221);
+		 background-color: rgb(240, 240, 240);
+		 padding-top: 0px;
+		 padding-right: 10px;
+		 padding-bottom: 0px;
+		 padding-left: 10px;
+		 font-size: 12px;
+		 font-weight: 700;
+		 line-height: 35px;
+		 height: 30px;
+		 overflow: hidden;
+	  }
+	  .db_pd
+	  {
+	     padding-top: 5px;
+		 padding-right: 10px;
+		 padding-bottom: 10px;
+		 padding-left: 10px;
+	  }
+	  .ta
+	  {
+	     text-align: center;
+	  }
+	  .mn
+	  {
+	  	float: left;
+	  	margin-bottom: 1em;
+	  	display: inline;
+	  	margin-left: 10px;
+	  	overflow: hidden;
+	  }
+	  .bm
+	  {
+	  	background-color: #FFF;
+	  	border: 1px solid #E6E7E1;
+	  	margin-bottom: 10px;
+	  	zoom: 1;
+	  }
+	  .bm_h
+	  {
+	  	padding: 0 10px;
+	  	height: 31px;
+	  	border-top: 1px solid #FFF;
+	  	border-bottom: 1px solid #ddd;
+	  	background: #f6f6f6;
+	  	line-height: 31px;
+	  	white-space: nowrap;
+	  	overflow: hidden;
+	  }
+	  .mt
+	  {
+	  	margin: 0;
+	  	padding: 0;
+	  }
+	  .bm_c
+	  {
+	  	padding: 10px;
+	  }
+   </style>
+</head>
+<body>
+	<div id="top" class="cl" style="img:src("http://sla.ckcdn.com/staticx3/image/common/topnav.png")>
+      <div class="z">
+         <a href="https://www.facebook.com/profile.php?id=100002390169665" style="padding-left:4px;padding-right:4px" title="我的FB">FB</a>
+	     <a href="http://mywindowsprograms-homework.blogspot.tw/" title="我的Blogger">網誌</a>
+	  </div>
+	  <div class="y">
+	     <a href="https://www.google.com/calendar/" style="padding-left:4px;padding-right:4px" title="Google日曆">日曆</a>
+		 <a href="https://translate.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google翻譯">翻譯</a>
+		 <a href="https://www.youtube.com/" style="padding-left:4px;padding-right:4px">Youtube</a>
+		 <a href="https://www.google.com.tw/maps/" style="padding-left:4px;padding-right:4px" title="Google地圖">地圖</a>
+		 <a href="https://www.google.com.tw/" style="padding-left:4px;padding-right:4px" title="Google首頁">離開</a>
+	  </div>
+   </div>
+   <div id="hd" class="wp cl">
+      <h2 id="spaceinfoshow">
+	     <strong id="spacename" class="mbn">小白的個人空間</strong>
+		 <span class="fw fs">
+		    <p>歡迎來到我的網頁</p>
+		 </span>
+		 <span id="spacedescription" class="fs1 mt fw"></span>
+	  </h2>
+	  <div id="nv">
+	     <ul>
+		    <li>
+			   <a href="">空間首頁</a>
+			</li>
+			<li>
+			   <a href="chrome://history/">記錄</a>
+			</li>
+			<li>
+			   <a href="chrome://downloads/">下載</a>
+			<li>
+			   <a href="chrome://bookmarks/">書籤管理員</a>
+			</li>
+			<li>
+			   <a href="chrome://settings/">設定</a>
+			</li>
+			<li>
+			   <a href="chrome://extensions/">擴充功能</a>
+			</li>
+         </ul>
+	  </div>
+   </div>
+   <div id="ct" class="ct2 wp cl">
+      <div class="mn">
+         <div class="bm">
+            <div class="bm_h">
+            	<h1 class="mt">歌詞</h1>
+            </div>
+            <div class="bm_c">
+               <div class="bm_c">
+               	  <h2 class="mbn">
+               	  	林俊傑 - 她說<br/>
+               	  	作詞 : 孫燕姿<br/>
+               	  	作曲 : 林俊傑<br/>
+               	  </h2><br/>
+               	  <pre class="cl wp">
+   他靜悄悄地來過 他慢慢帶走沉默
+   只是最後的承諾 還是沒有帶走了寂寞
+   我們愛的沒有錯 只是美麗的獨秀太折磨
+   她說無所謂
+   只要能在夜裡翻來覆去的時候有寄託
+   
+   等不到天黑 煙火不會太完美
+   回憶燒成灰 還是等不到結尾
+   她曾說的無所謂 我怕一天一天被摧毀
+   
+   等不到天黑 不敢凋謝的花蕾
+   綠葉在跟隨 放開刺痛的滋味
+   今後不再怕天明 我想只是害怕清醒
+   
+   他靜悄悄地來過 他慢慢帶走沉默
+   只是最後的承諾 還是沒有帶走了寂寞
+   我們愛的沒有錯 只是美麗的獨秀太折磨
+   她說無所謂
+   只要能在夜裡翻來覆去的時候有寄託
+   
+   等不到天黑 煙火不會太完美
+   回憶燒成灰 還是等不到結尾
+   她曾說的無所謂 我怕一天一天被摧毀
+   
+   等不到天黑 不敢凋謝的花蕾
+   綠葉在跟隨 放開刺痛的滋味
+   今後不再怕天明 我想只是害怕清醒
+   
+   等不到天黑 煙火不會太完美
+    回憶燒成灰 還是等不到結尾
+   她曾說的無所謂 我怕一天一天被摧毀
+   
+   等不到天黑 不敢凋謝的花蕾
+   綠葉在跟隨 放開刺痛的滋味
+   今後不再怕天明 我想只是害怕清醒
+   
+   
+   不怕天明 我想只是害怕清醒
+               	   </pre>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
